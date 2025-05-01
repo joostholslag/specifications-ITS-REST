@@ -348,13 +348,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id"
+								"{{ehrId}}"
 							],
 							"variable": [
 								{
@@ -399,13 +399,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id"
+										"{{ehrId}}"
 									],
 									"variable": [
 										{
@@ -476,13 +476,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id"
+										"{{ehrId}}"
 									],
 									"variable": [
 										{
@@ -531,13 +531,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id"
+										"{{ehrId}}"
 									],
 									"variable": [
 										{
@@ -571,13 +571,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id"
+								"{{ehrId}}"
 							],
 							"variable": [
 								{
@@ -603,13 +603,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id"
+										"{{ehrId}}"
 									],
 									"variable": [
 										{
@@ -638,13 +638,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id"
+										"{{ehrId}}"
 									],
 									"variable": [
 										{
@@ -685,13 +685,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:version_uid",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:version_uid",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status",
 								":version_uid"
 							],
@@ -725,13 +725,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":version_uid"
 									],
@@ -792,13 +792,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":version_uid"
 									],
@@ -837,13 +837,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status?version_at_time=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status?version_at_time=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status"
 							],
 							"query": [
@@ -877,13 +877,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"query": [
@@ -952,13 +952,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"query": [
@@ -995,13 +995,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"query": [
@@ -1072,13 +1072,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status"
 							],
 							"variable": [
@@ -1134,13 +1134,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"variable": [
@@ -1227,13 +1227,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"variable": [
@@ -1320,13 +1320,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"variable": [
@@ -1386,13 +1386,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"variable": [
@@ -1447,13 +1447,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status"
 									],
 									"variable": [
@@ -1507,13 +1507,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_ehr_status"
 							],
 							"variable": [
@@ -1540,13 +1540,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status"
 									],
 									"variable": [
@@ -1576,13 +1576,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status"
 									],
 									"variable": [
@@ -1617,13 +1617,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/revision_history",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/revision_history",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_ehr_status",
 								"revision_history"
 							],
@@ -1651,13 +1651,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/revision_history",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/revision_history",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"revision_history"
 									],
@@ -1688,13 +1688,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/revision_history",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/revision_history",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"revision_history"
 									],
@@ -1730,13 +1730,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version?version_at_time=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version?version_at_time=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_ehr_status",
 								"version"
 							],
@@ -1771,13 +1771,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"version"
 									],
@@ -1838,13 +1838,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"version"
 									],
@@ -1882,13 +1882,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"version"
 									],
@@ -1931,13 +1931,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version/:version_uid",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version/:version_uid",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_ehr_status",
 								"version",
 								":version_uid"
@@ -1972,13 +1972,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"version",
 										":version_uid"
@@ -2013,13 +2013,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_ehr_status/version/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_ehr_status/version/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_ehr_status",
 										"version",
 										":version_uid"
@@ -2090,13 +2090,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition"
 							],
 							"variable": [
@@ -2147,13 +2147,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition"
 									],
 									"variable": [
@@ -2239,13 +2239,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition"
 									],
 									"variable": [
@@ -2300,13 +2300,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition"
 									],
 									"variable": [
@@ -2356,13 +2356,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition"
 									],
 									"variable": [
@@ -2409,13 +2409,20 @@
 							],
 							"query": [
 								{
+									"description": "A given time in the extended ISO 8601 format.\n",
 									"key": "version_at_time",
-									"value": "<string>",
-									"description": "A given time in the extended ISO 8601 format.\n"
+									"value": "<string>"
 								}
 							],
 							"variable": [
 								{
+									"id": "43571c1b-27f9-49bf-9a54-f9e9062d9398",
+									"key": "ehr_id",
+									"value": "<uuid>",
+									"description": "(Required) EHR identifier taken from EHR.ehr_id.value.\n"
+								},
+								{
+									"id": "e0b29d95-1827-4cf6-acf0-baa4a31c05a3",
 									"key": "uid_based_id",
 									"value": "<string>",
 									"description": "(Required) An abstract identifier: it can take a form of an OBJECT_VERSION_ID identifier taken from VERSION.uid.value (i.e. a `version_uid`), or a form of a HIER_OBJECT_ID identifier taken from VERSIONED_OBJECT.uid.value (i.e. a `versioned_object_uid`).\n"
@@ -2437,13 +2444,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2511,13 +2518,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2553,13 +2560,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2634,13 +2641,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition",
 								":uid_based_id"
 							],
@@ -2703,13 +2710,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2804,13 +2811,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2874,13 +2881,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -2939,13 +2946,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3023,13 +3030,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3063,13 +3070,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition",
 								":uid_based_id"
 							],
@@ -3098,13 +3105,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3152,13 +3159,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3187,13 +3194,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3222,13 +3229,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id"
 									],
@@ -3286,13 +3293,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_composition",
 								":versioned_object_uid"
 							],
@@ -3326,13 +3333,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid"
 									],
@@ -3366,13 +3373,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid"
 									],
@@ -3411,13 +3418,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/revision_history",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/revision_history",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_composition",
 								":versioned_object_uid",
 								"revision_history"
@@ -3452,13 +3459,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/revision_history",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/revision_history",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"revision_history"
@@ -3493,13 +3500,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/revision_history",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/revision_history",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"revision_history"
@@ -3539,13 +3546,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_composition",
 								":versioned_object_uid",
 								"version"
@@ -3587,13 +3594,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"version"
@@ -3653,13 +3660,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version?version_at_time=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"version"
@@ -3706,13 +3713,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version/:version_uid",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version/:version_uid",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"versioned_composition",
 								":versioned_object_uid",
 								"version",
@@ -3754,13 +3761,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"version",
@@ -3799,13 +3806,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/versioned_composition/:versioned_object_uid/version/:version_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/versioned_composition/:versioned_object_uid/version/:version_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"versioned_composition",
 										":versioned_object_uid",
 										"version",
@@ -3875,13 +3882,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"directory"
 							],
 							"variable": [
@@ -3927,13 +3934,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4005,13 +4012,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4061,13 +4068,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4126,13 +4133,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"directory"
 							],
 							"variable": [
@@ -4183,13 +4190,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4262,13 +4269,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4341,13 +4348,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4402,13 +4409,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4458,13 +4465,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4523,13 +4530,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"directory"
 							],
 							"variable": [
@@ -4557,13 +4564,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4598,13 +4605,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4640,13 +4647,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4677,13 +4684,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"variable": [
@@ -4737,13 +4744,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/directory?version_at_time=<string>&path=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory?version_at_time=<string>&path=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"directory"
 							],
 							"query": [
@@ -4782,13 +4789,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory?version_at_time=<string>&path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory?version_at_time=<string>&path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"query": [
@@ -4830,13 +4837,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory?version_at_time=<string>&path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory?version_at_time=<string>&path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"query": [
@@ -4873,13 +4880,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory?version_at_time=<string>&path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory?version_at_time=<string>&path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory"
 									],
 									"query": [
@@ -4926,13 +4933,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/directory/:version_uid?path=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory/:version_uid?path=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"directory",
 								":version_uid"
 							],
@@ -4973,13 +4980,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory/:version_uid?path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory/:version_uid?path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory",
 										":version_uid"
 									],
@@ -5020,13 +5027,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/directory/:version_uid?path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/directory/:version_uid?path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"directory",
 										":version_uid"
 									],
@@ -5098,13 +5105,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/contribution",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"contribution"
 							],
 							"variable": [
@@ -5150,13 +5157,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution"
 									],
 									"variable": [
@@ -5228,13 +5235,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution"
 									],
 									"variable": [
@@ -5284,13 +5291,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution"
 									],
 									"variable": [
@@ -5335,13 +5342,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution"
 									],
 									"variable": [
@@ -5376,13 +5383,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/contribution/:contribution_uid",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution/:contribution_uid",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"contribution",
 								":contribution_uid"
 							],
@@ -5416,13 +5423,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution/:contribution_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution/:contribution_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution",
 										":contribution_uid"
 									],
@@ -5456,13 +5463,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/contribution/:contribution_uid",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/contribution/:contribution_uid",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"contribution",
 										":contribution_uid"
 									],
@@ -5508,13 +5515,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"tags"
 							],
 							"query": [
@@ -5555,13 +5562,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"tags"
 									],
 									"query": [
@@ -5610,13 +5617,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"tags"
 									],
 									"query": [
@@ -5660,13 +5667,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/tags?tag_key=<string>&tag_value=<string>&tag_target_path=<string>",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"tags"
 									],
 									"query": [
@@ -5715,13 +5722,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition",
 								":uid_based_id",
 								"tags"
@@ -5756,13 +5763,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -5797,13 +5804,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -5862,13 +5869,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition",
 								":uid_based_id",
 								"tags"
@@ -5922,13 +5929,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -5983,13 +5990,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -6043,13 +6050,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -6104,13 +6111,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags"
@@ -6145,13 +6152,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags/:key",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags/:key",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"composition",
 								":uid_based_id",
 								"tags",
@@ -6188,13 +6195,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags/:key",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags/:key",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags",
@@ -6228,13 +6235,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id/tags/:key",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/composition/:uid_based_id/tags/:key",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"composition",
 										":uid_based_id",
 										"tags",
@@ -6278,13 +6285,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status",
 								":uid_based_id",
 								"tags"
@@ -6319,13 +6326,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6360,13 +6367,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6425,13 +6432,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status",
 								":uid_based_id",
 								"tags"
@@ -6485,13 +6492,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6546,13 +6553,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6606,13 +6613,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6667,13 +6674,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags"
@@ -6708,13 +6715,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags/:key",
+							"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags/:key",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								":ehr_id",
+								"{{ehrId}}",
 								"ehr_status",
 								":uid_based_id",
 								"tags",
@@ -6751,13 +6758,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags/:key",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags/:key",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags",
@@ -6791,13 +6798,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/ehr/:ehr_id/ehr_status/:uid_based_id/tags/:key",
+									"raw": "{{baseUrl}}/ehr/{{ehrId}}/ehr_status/:uid_based_id/tags/:key",
 									"host": [
 										"{{baseUrl}}"
 									],
 									"path": [
 										"ehr",
-										":ehr_id",
+										"{{ehrId}}",
 										"ehr_status",
 										":uid_based_id",
 										"tags",
