@@ -2600,19 +2600,19 @@
 						"method": "PUT",
 						"header": [
 							{
+								"description": "(Required) Header to make the request conditional. \nTogether with `ETag` request tag, it helps to prevent simultaneous updates of a resource from overwriting each other (\"mid-air collisions\").\nThe format is always an `version_uid` identifier enclosed by double quotes.\nThe operation will be performed only if the existing latest `version_uid` of the resource (i.e. the `preceding_version_uid`) matches this header's value.\n",
 								"key": "If-Match",
-								"value": "<string>",
-								"description": "(Required) Header to make the request conditional. \nTogether with `ETag` request tag, it helps to prevent simultaneous updates of a resource from overwriting each other (\"mid-air collisions\").\nThe format is always an `version_uid` identifier enclosed by double quotes.\nThe operation will be performed only if the existing latest `version_uid` of the resource (i.e. the `preceding_version_uid`) matches this header's value.\n"
+								"value": "<string>"
 							},
 							{
+								"description": "Request header to indicate the preference over response details.\nThe response will contain the entire resource when the `Prefer` header has a value of `return=representation`.\n",
 								"key": "Prefer",
-								"value": "return=minimal",
-								"description": "Request header to indicate the preference over response details.\nThe response will contain the entire resource when the `Prefer` header has a value of `return=representation`.\n"
+								"value": "return=minimal"
 							},
 							{
+								"description": "The (semicolon-separated) list of all ITEM_TAG to be set or updated and associated with the given VERSION or VERSIONED_OBJECT.\n",
 								"key": "openehr-item-tag",
-								"value": "[object Object],[object Object]",
-								"description": "The (semicolon-separated) list of all ITEM_TAG to be set or updated and associated with the given VERSION or VERSIONED_OBJECT.\n"
+								"value": "[object Object],[object Object]"
 							},
 							{
 								"key": "Content-Type",
@@ -2634,21 +2634,28 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/ehr/{{ehr_id}}/composition/:uid_based_id",
+							"raw": "{{baseUrl}}/ehr/:ehr_id/composition/:uid_based_id",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"ehr",
-								"{{ehr_id}}",
+								":ehr_id",
 								"composition",
 								":uid_based_id"
 							],
 							"variable": [
 								{
+									"id": "688fea0c-4818-4e87-948c-b15b3ee65d9d",
+									"key": "ehr_id",
+									"value": "<uuid>",
+									"description": "(Required) EHR identifier taken from EHR.ehr_id.value.\n"
+								},
+								{
+									"id": "097b4d02-a0ca-45e8-946d-3435cf13cfc4",
 									"key": "uid_based_id",
-									"value": "{{compositionId}}",
-									"description": "(Required) An identifier in a form of a HIER_OBJECT_ID identifier taken from VERSIONED_OBJECT.uid.value (i.e. a `versioned_object_uid`)"
+									"value": "<uuid>",
+									"description": "(Required) An identifier in a form of a HIER_OBJECT_ID identifier taken from VERSIONED_OBJECT.uid.value (i.e. a `versioned_object_uid`).\n"
 								}
 							]
 						},
