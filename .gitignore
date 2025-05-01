@@ -2,3 +2,4 @@
 /development/vendor/
 /development/composer.lock
 /development/xdebug_remote.log
+.DS_Store
